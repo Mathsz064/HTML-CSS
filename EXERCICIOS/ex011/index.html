@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ousimplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Reproduzindo audio em <b>HTML5</b></p>
+    <audio preload="none"  controls >
+        <source src="midia/Charlie_Brown_Jr._-_Tudo_Que_Ela_Gosta_De_Escutar_(mp3.pm).mp3" type="audio/mp3">
+    </audio>
+    <p>Caso nao carregue seu audio, infelizmente seu navegador não aceita esse tipo, porém <a href="midia/Charlie_Brown_Jr._-_Tudo_Que_Ela_Gosta_De_Escutar_(mp3.pm).mp3" download="Charlie_Brown_Jr._-_Tudo_Que_Ela_Gosta_De_Escutar_.mp3" type="audio/mpeg">clique aqui</a> para baixa-lo</p>
+
+  <p><B> Audio 2</B></p>
+  <audio preload="none" controls  >
+    <source src="midia/good for the ghost - Alge.mp3" type="audio/mp3">
+  </audio><br>
+ 
+
+
+  <audio src="midia/Charlie_Brown_Jr._-_Tudo_Que_Ela_Gosta_De_Escutar_(mp3.pm).mp3" controls loop preload="none"></audio>
+
+  
+    
+    
+
+    
+    
+</body>
+</html>

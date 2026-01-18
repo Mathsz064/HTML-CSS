@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamrnto vertical</title>
+    <style>
+        #container{
+            min-width: 320px;
+        max-width: 1000px;
+        margin: auto;
+            height: 97vh;
+            position: relative;
+            background-color: purple;
+            padding:10px;
+            display: flex; 
+            align-items: center;
+        }
+
+        #conteudo{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 150px;
+            width: 180px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 10%;
+
+            
+        }
+
+
+    header{background-image: linear-gradient(to top, rgb(1, 116, 1), rgb(106, 236, 106));
+        color: white;
+        padding: 5px;
+        margin: 1px;}
+    body{ margin: 0px; padding: 0px; background-color: black;}
+    p{ display: inline-block;}
+    img{border: 3px solid black;
+        border-radius: 15px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="comeco">Curiosidades de tecnologia</h1>
+            <p id="comeco">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+            <nav >
+                <a href="#">Home</a>
+                <a href="#">Notícias</a>
+                <a href="#">Curiosidades</a>
+                <a href="#">Fale conosco</a>
+            </nav>
+    </header>
+
+
+    <main>
+        <section id="container">
+             <p>Este é o parágrafo que ficará ao lado da imagem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore totam voluptatum quod dolores esse, magnam molestias possimus laborum animi aliquid dolore sunt deserunt cum fuga accusantium molestiae ut iste repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nobis omnis adipisci quos molestias reiciendis, eveniet delectus soluta praesentium magnam quibusdam. Adipisci unde modi ipsa sit hic in. Ducimus, nesciunt!</p>
+            <img src="imagens/santos1.png" alt="Descrição da Imagem">
+           
+
+            </p>
+            <article id="conteudo">
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>

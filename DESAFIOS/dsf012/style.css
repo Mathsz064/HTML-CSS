@@ -18,6 +18,7 @@ h1{font-family: "Passion One", sans-serif;
     margin: 60px auto -10px auto;
     font-size: 5em;
     padding: 10px;
+    font-variant: small-caps;
 }
 header p{ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 55px;
@@ -31,16 +32,41 @@ header a:hover{ text-decoration: underline;
     background-color: rgb(90, 89, 89);
     border-radius: 6px;
     padding: 4px;}
-main{ min-width: 400px; max-width: 1300px; }
+
+
+
+
+
+main{ min-width: 400px; max-width: 1300px;
+
+}
 main p{font-family: "Sriracha", cursive;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 2.9vw;
     text-align: left;
-    padding: 15px;
-        margin-top: 80px;}
-main section{ background-image: url(imagens/background001.jpg);
+    line-height: 2em;
+    padding-left: 30px;
+
+    }
+.fundo{ color: white;
+        background-color: rgba(0, 0, 0, 0.349);
+        padding: 25px;
+        display: inline-block;
+        margin-left: 20px;
+        }
+
+section{ padding-top: 10vh;
+    padding-bottom: 10vh;}
+section#imagem1{ box-shadow: inset 6px 6px 13px 0px black;
+    background-image: url(imagens/background001.jpg);
+background-position: right center;
 background-size: cover;
-background-repeat: no-repeat;
-background-attachment: scroll;}
-#fundo{ color: white;
-        margin-bottom: 55px;}
+background-attachment: fixed;
+
+}
+
+section#imagem2{box-shadow: inset 6px 6px 13px 0px black; 
+    background-image: url(imagens/background002.jpg);
+background-position: right center;
+background-attachment: fixed;
+}
